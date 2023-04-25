@@ -1,4 +1,18 @@
-﻿# Personal-Portfolio-Site &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[🇺🇸]
+<div style="background-color: #f1f1f1; border-radius: 10px; padding: 20px; width: 300px;">
+<img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/321253756_5519303911530543_2412842222676698820_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=pKvYSAL-X-cAX8aDskU&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAgW-dbAJt-OEmPDsgTnsV9_qQtXcji_IuO2jdl28ODEQ&oe=644CB4D0" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: 500px; width: 100%; z-index:-1; margin-bottom:-5em;">
+  <h2 style="color: #333; font-family: Arial, sans-serif; margin-top: 20px; text-align: center;">Ningsang Jabegu</h2>
+  <p style="color: #666; font-family: Arial, sans-serif; text-align: center;">Web Master</p>
+  <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
+  <p style="color: #666; font-family: Arial, sans-serif; text-align: center;">Dedicated to creating commercial and genuine website to help businesses and organization grow towards their excellency.</p>
+  <ul style="list-style: none; padding-left: 0; text-align: center;">
+    <li><a href="https://ningsangjabegu.com.np" style="color: #333; font-family: Arial, sans-serif; text-decoration: none;">Website</a></li>
+    <li><a href="https://www.facebook.com/ningsang.jabegu" style="color: #333; font-family: Arial, sans-serif; text-decoration: none;">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/ningsang-jabegu-45b545216/" style="color: #333; font-family: Arial, sans-serif; text-decoration: none;">LinkedIn</a></li>
+  </ul>
+</div>
+
+
+# Personal-Portfolio-Site &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[🇺🇸]
 Hello, welcome to my portfolio! (https://ningsangjabegu.com.np) I am very happy to showcase my skills and experiences through this website. This is a place where I want to share my journey and accomplishments with potential clients, employers, and colleagues. My portfolio represents my unique personal brand and the desire that drives me to succeed.
 
 Through a combination of visually appealing design and compelling storytelling, I aim to showcase my versatility and adaptability as a peshawar. You'll find examples of my best work, as well as a brief description of the challenges I faced and how I overcame them. I will also highlight any collaborative work or projects I have worked on, as well as any notable achievements or awards.I hope you have as much fun exploring my portfolio as I had creating it.
