@@ -1,5 +1,9 @@
 <div style="background-color: #f1f1f1; border-radius: 10px; padding: 20px; width: 300px;">
-<img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/321253756_5519303911530543_2412842222676698820_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=pKvYSAL-X-cAX8aDskU&_nc_ht=scontent.fktm8-1.fna&oh=00_AfAgW-dbAJt-OEmPDsgTnsV9_qQtXcji_IuO2jdl28ODEQ&oe=644CB4D0" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: 500px; width: 100%; z-index:-1; margin-bottom:-5em;">
+<img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/about-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
+<img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/resume-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
+  <img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/portfolio-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
+  <img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/blog-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
+  <img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/contact-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
   <h2 style="color: #333; font-family: Arial, sans-serif; margin-top: 20px; text-align: center;">Ningsang Jabegu</h2>
   <p style="color: #666; font-family: Arial, sans-serif; text-align: center;">Web Master</p>
   <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
