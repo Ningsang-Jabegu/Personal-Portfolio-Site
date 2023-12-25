@@ -175,32 +175,41 @@
             <nav class="navbar">
 
                 <ul class="navbar-list">
+                    <a href="#/">
+                        <li class="navbar-item">
+                            <button id="about-btn" class="navbar-link  active" data-nav-link>About</button>
+                        </li>
+                    </a>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link  active" data-nav-link>About</button>
-                    </li>
+                    <a href="#/about">
+                        <li class="navbar-item">
+                            <button id="resume-btn" class="navbar-link" data-nav-link>Resume</button>
+                        </li>
+                    </a>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Resume</button>
-                    </li>
+                    <a href="#/portfolio">
+                        <li class="navbar-item">
+                            <button id="portfolio-btn" class="navbar-link" data-nav-link>Portfolio</button>
+                        </li>
+                    </a>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Portfolio</button>
-                    </li>
+                    <a href="#/blog">
+                        <li class="navbar-item">
+                            <button id="blog-btn" class="navbar-link" data-nav-link>Blog</button>
+                        </li>
+                    </a>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Blog</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Contact</button>
-                    </li>
-
+                    <a href="#/contact">
+                        <li class="navbar-item">
+                            <button id="contact-btn" class="navbar-link" data-nav-link>Contact</button>
+                        </li>
+                    </a>
                 </ul>
 
             </nav>
 
-
+            
+              
 
 
 
@@ -1044,17 +1053,17 @@
                                 <div class="blog-content">
 
                                     <div class="blog-meta">
-                                        <p class="blog-category">Design</p>
+                                        <p class="blog-category">Thinking</p>
 
                                         <span class="dot"></span>
 
-                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                        <time datetime="2022-02-23">Dec 25, 2023</time>
                                     </div>
 
-                                    <h3 class="h3 blog-item-title">Sample Post</h3>
+                                    <h3 class="h3 blog-item-title">How Reading Books Makes You a Better Front-End Developer</h3>
 
                                     <p class="blog-text">
-                                        I will update the blog section of my website soon. Sorry for your inconvinience. Under Construction ...
+                                        As a front-end developer, your primary tools are likely to be practical ones: coding languages, libraries, frameworks, and design tools. However, there’s another tool that can significantly enhance your skills and career: <important>reading books</important>.
                                     </p>
 
                                 </div>
@@ -1066,10 +1075,23 @@
                     </ul>
 
                 </section>
+                <!-- For showing the blog content -->
 
+            <section class="blog-post-content" data-blog-post-content>
+                <div class="blog-post-details">
+                  <h2 class="h2" data-blog-post-title></h2>
+                  <figure class="blog-banner-box">
+                    <img src="" alt="Blog Post Image" loading="lazy" data-blog-post-image>
+                  </figure>
+                  <div class="blog-meta">
+                    <p class="blog-category" data-blog-post-category></p>
+                    <span class="dot"></span>
+                    <time datetime="" data-blog-post-date></time>
+                  </div>
+                  <p class="blog-text" data-blog-post-text></p>
+                </div>
+              </section>
             </article>
-
-
 
 
 
@@ -1130,6 +1152,7 @@
     - custom js link
   -->
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/router.js"></script>
 
     <!--
     - ionicon link

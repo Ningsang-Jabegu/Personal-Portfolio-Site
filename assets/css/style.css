@@ -222,7 +222,8 @@ article {
     display: none;
 }
 
-article.active {
+article.active,
+section.active {
     display: block;
     animation: fade 0.5s ease backwards;
 }
@@ -1297,9 +1298,15 @@ main {
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
     line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-
+.blog-post-content {
+    display: none;
+}
 
 
 
