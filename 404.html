@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Parse the URL path
+    var path = location.pathname;
+
+    // List of paths to redirect to index.html
+    var paths = ['/about', '/resume', '/blog', '/contact'];
+
+    // Check if the path is in the list
+    if (paths.includes(path)) {
+      // Redirect to index.html
+      location.replace('/index.html');
+    } else {
+      // Redirect to the React "Not Found" component
+      location.replace('/not-found');
+    }
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
