@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.js": "/static/js/main.3256b03c.js",
     "static/js/787.db99e32d.chunk.js": "/static/js/787.db99e32d.chunk.js",
     "index.html": "/index.html",
@@ -8,5 +9,27 @@
   },
   "entrypoints": [
     "static/js/main.3256b03c.js"
+=======
+<<<<<<< HEAD
+    "main.js": "/static/js/main.baebebc2.js",
+    "static/js/787.db99e32d.chunk.js": "/static/js/787.db99e32d.chunk.js",
+    "index.html": "/index.html",
+=======
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.baebebc2.js",
+    "static/js/787.db99e32d.chunk.js": "/static/js/787.db99e32d.chunk.js",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+>>>>>>> 10ad11fd04c75df5edd672aaa299949c9d317663
+    "main.baebebc2.js.map": "/static/js/main.baebebc2.js.map",
+    "787.db99e32d.chunk.js.map": "/static/js/787.db99e32d.chunk.js.map"
+  },
+  "entrypoints": [
+<<<<<<< HEAD
+=======
+    "static/css/main.e6c13ad2.css",
+>>>>>>> 10ad11fd04c75df5edd672aaa299949c9d317663
+    "static/js/main.baebebc2.js"
+>>>>>>> 3b2edddedaf809ace9bd470b64a410c8b7b9efcf
   ]
 }
