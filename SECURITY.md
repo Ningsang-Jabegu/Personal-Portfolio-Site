@@ -2,12 +2,38 @@
 
 ## Supported Versions
 
-This section tells which versions of your project are currently being supported with security updates.
+This section tells which browsers will fully support all the functionalities.
 
-| Version | Supported          |
+| Browser | Supported          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+| Brave   | :white_check_mark: |
+| Google Chrome   | :white_check_mark: |
+| Microsoft Edge   | :white_check_mark: |
+
+## Lighthouse Calculation
+This is the lighthouse calculation of my personal portfolio website.
+
+** For Desktop
+| Area | Value          |
+| ------- | ------------------ |
+| Performance   | 62 |
+| Accessibility   | 91 |
+| Best Practices   | 91 |
+| SEO*   | 100 |
+| PWA*   | 0 |
+
+** For Mobile
+| Area | Value          |
+| ------- | ------------------ |
+| Performance   | 70 |
+| Accessibility   | 91 |
+| Best Practices   | 91 |
+| SEO*   | 100 |
+| PWA*   | 0 |
+
+*SEO => Search Engine Optimization
+*PWA => Progressive Web App
+*This value is updating on 28th of every month.
 
 ## Reporting a Vulnerability
 
