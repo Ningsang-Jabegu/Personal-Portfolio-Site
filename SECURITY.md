@@ -2,14 +2,6 @@
 
 ## Supported Versions
 
-\documentclass{article}
-\usepackage{xcolor}
-
-\begin{document}
-\colorbox{lightgreen}{This is the lighthouse calculation of my personal portfolio website.}
-\end{document}
-
-
 ${{\color{lightgreen}{\textsf{  This section tells which browsers will fully support all the functionalities of my portfolio website.}}}}\$
 
 | Browser | Supported          |
