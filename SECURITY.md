@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-$${\color{lightgreen}This \space section \space tells \space which \space browsers \space will \space fully \space support \space all \space the \space functionalities.}$$ 
+${{\color{lightgreen}{\textsf{  This section tells which browsers will fully support all the functionalities of my portfolio website.}}}}\$
 
 | Browser | Supported          |
 | ------- | ------------------ |
@@ -11,7 +11,7 @@ $${\color{lightgreen}This \space section \space tells \space which \space browse
 | Microsoft Edge   | :white_check_mark: |
 
 ## Lighthouse Calculation
-This is the lighthouse calculation of my personal portfolio website.
+${{\color{lightgreen}{\textsf{  This is the lighthouse calculation of my personal portfolio website.}}}}\$
 
 ** For Desktop
 | Area | Value          |
@@ -37,7 +37,8 @@ This is the lighthouse calculation of my personal portfolio website.
 
 ## Reporting a Vulnerability
 
-I take the security of my personal portfolio website seriously. If you believe you have found a security vulnerability, please report it to me by following these steps:
+${{\color{lightgreen}{\textsf{  This is the lighthouse calculation of my personal portfolio website.}}}}\$
+
 
 + <em>**Do not report the vulnerability publicly** :</em><br>
     Please do not report the vulnerability on public forums, social media, etc. I appreciate your help in keeping the disclosure process orderly and coordinated.
@@ -51,4 +52,5 @@ I take the security of my personal portfolio website seriously. If you believe y
 + <em>**What to expect after you have reported a vulnerability** :</em><br>
     I will acknowledge your email within 48 hours. I will also communicate with you about the next steps and any other necessary information.
 
-Thank you for helping me ensure the security of my personal portfolio web project.
+${{\color{lightgreen}{\textsf{  Thank you for helping me ensure the security of my personal portfolio web project.}}}}\$
+
