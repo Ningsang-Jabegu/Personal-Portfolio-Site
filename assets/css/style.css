@@ -940,6 +940,7 @@ main {
     line-height: 1.3;
     margin-bottom: 7px;
 }
+
 .timeline-item-title  .edu-link{
     font-size: inherit;
     line-height: inherit;
@@ -997,6 +998,7 @@ main {
 }
 
 /**
+<<<<<<< HEAD
    * Education links
    */
 
@@ -1076,6 +1078,9 @@ figure .a ion-icon {
 
 /**
    * skills rgb(106, 82, 11)
+=======
+   * skills 
+>>>>>>> 07d454bb8d523f8c84ca5fa244a545da3af7acbc
    */
 
 .skills-title {
@@ -1404,6 +1409,7 @@ article.indivisual_blog .blog-item-title{
     overflow: hidden;
 }
 
+
 .education-main {
     color: var(--white-2);
 }
@@ -1411,6 +1417,11 @@ article.indivisual_blog .blog-item-title{
 .education-main h3 {
     font-size: 26px;
     color: var(--white-1);
+}
+
+
+.blog-text-indivisual h3 {
+    font-size: 26px;
 }
 
 .blog-text-indivisual p,
@@ -1898,7 +1909,6 @@ textarea.form-input::-webkit-resizer {
     .skills-item:not(:last-child) {
         margin-bottom: 25px;
     }
-
     .education-figure figure {
         width: 47%;
     }
@@ -2355,7 +2365,6 @@ textarea.form-input::-webkit-resizer {
     .timeline-text {
         max-width: 700px;
     }
-
     .education-main .timeline-text {
         max-width: 100%;
     }
