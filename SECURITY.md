@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-${{\color{lightgreen}{\textsf{This section tells which browsers will fully support all the functionalities of my portfolio website.}}\}\}$  
+${\color{lightgreen}{\textsf{This section tells which browsers will fully support all the functionalities of my portfolio website.}\}\}$  
 
 | Browser | Supported          |
 | ------- | ------------------ |
@@ -11,7 +11,7 @@ ${{\color{lightgreen}{\textsf{This section tells which browsers will fully suppo
 | Microsoft Edge   | :white_check_mark: |
 
 ## Lighthouse Calculation
-${\color{lightgreen}{\textsf{  This is the lighthouse calculation of my personal portfolio website.}\}\}$
+${\color{lightgreen}{\textsf{This is the lighthouse calculation of my personal portfolio website.}\}\}$
 
 ** For Desktop
 | Area | Value          |
