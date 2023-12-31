@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-${{\color{lightgreen}{\textsf{  This section tells which browsers will fully support all the functionalities of my portfolio website.}}}}\$
+${{\color{lightgreen}{\textsf{This section tells which browsers will fully support all the functionalities of my portfolio website.}}}}\$
 
 | Browser | Supported          |
 | ------- | ------------------ |
