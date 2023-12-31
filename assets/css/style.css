@@ -940,8 +940,7 @@ main {
     line-height: 1.3;
     margin-bottom: 7px;
 }
-
-.timeline-item-title  .edu-link{
+.timeline-item-title  .edu-link, .exp-link{
     font-size: inherit;
     line-height: inherit;
     margin-bottom: inherit;
@@ -998,13 +997,6 @@ main {
 }
 
 /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 53ad60bf742185047418f50de797b54e5dea20be
->>>>>>> 07d88995ecc613798100ee09e7c1f4ca58caf4d5
    * Education links
    */
 
@@ -1097,15 +1089,6 @@ figure .a ion-icon {
 
 /**
    * skills rgb(106, 82, 11)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-   * skills 
->>>>>>> 07d454bb8d523f8c84ca5fa244a545da3af7acbc
->>>>>>> 53ad60bf742185047418f50de797b54e5dea20be
->>>>>>> 07d88995ecc613798100ee09e7c1f4ca58caf4d5
    */
 
 .skills-title {
