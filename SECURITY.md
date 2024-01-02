@@ -39,18 +39,17 @@ ${\color{lightgreen}{\textsf{This is the lighthouse calculation of my personal p
 
 ${\color{lightgreen}{\textsf{  This is the lighthouse calculation of my personal portfolio website.}\}\}$
 
-
-+ **Do not report the vulnerability publicly :**<br>
+**Do not report the vulnerability publicly :**<br>
   ${\color{grey}{\textsf{Please do not report the vulnerability on public forums, social media, etc. I appreciate your help in keeping the disclosure process orderly and coordinated.}\}\}$
     
-+ **Email Me:**<br>
+**Email Me:**<br>
   ${\color{grey}{\textsf{Send an email that is in my profile bio. If possible, encrypt your message using our public PGP key to prevent unnecessary exposure to the public.}\}\}$
     
-+ **What to include in your email :**<br>
+**What to include in your email :**<br>
   ${\color{grey}{\textsf{ Please include as much information as possible about the vulnerability This might include the steps to reproduce the vulnerability, potential impacts, and its location. Please include the screenshots of it too if possible.}\}\}$
    
 
-+ **What to expect after you have reported a vulnerability : **<br>
+**What to expect after you have reported a vulnerability : **<br>
   ${\color{grey}{\textsf{I will acknowledge your email within 48 hours. I will also communicate with you about the next steps and any other necessary information.}\}\}$
     
 
