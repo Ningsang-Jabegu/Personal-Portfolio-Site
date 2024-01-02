@@ -40,18 +40,18 @@ ${\color{lightgreen}{\textsf{This is the lighthouse calculation of my personal p
 ${\color{lightgreen}{\textsf{  This is the lighthouse calculation of my personal portfolio website.}\}\}$
 
 
-+ <em><b>Do not report the vulnerability publicly :</b></em> <br>
-        ${\color{grey}{\textsf{Please do not report the vulnerability on public forums, social media, etc. I appreciate your help in keeping the disclosure process orderly and coordinated.}\}\}$
++ **Do not report the vulnerability publicly :**<br>
+  ${\color{grey}{\textsf{Please do not report the vulnerability on public forums, social media, etc. I appreciate your help in keeping the disclosure process orderly and coordinated.}\}\}$
     
-+ <em><b>Email Me:</b></em><br>
-        ${\color{grey}{\textsf{Send an email that is in my profile bio. If possible, encrypt your message using our public PGP key to prevent unnecessary exposure to the public.}\}\}$
++ **Email Me:**<br>
+  ${\color{grey}{\textsf{Send an email that is in my profile bio. If possible, encrypt your message using our public PGP key to prevent unnecessary exposure to the public.}\}\}$
     
-+ <em><b>What to include in your email :</b></em><br>
-        ${\color{grey}{\textsf{ Please include as much information as possible about the vulnerability This might include the steps to reproduce the vulnerability, potential impacts, and its location. Please include the screenshots of it too if possible.}\}\}$
++ **What to include in your email :**<br>
+  ${\color{grey}{\textsf{ Please include as much information as possible about the vulnerability This might include the steps to reproduce the vulnerability, potential impacts, and its location. Please include the screenshots of it too if possible.}\}\}$
    
 
-+ <em><b>What to expect after you have reported a vulnerability : </b></em><br>
-        ${\color{grey}{\textsf{I will acknowledge your email within 48 hours. I will also communicate with you about the next steps and any other necessary information.}\}\}$
++ **What to expect after you have reported a vulnerability : **<br>
+  ${\color{grey}{\textsf{I will acknowledge your email within 48 hours. I will also communicate with you about the next steps and any other necessary information.}\}\}$
     
 
 ${\color{lightgreen}{\textsf{  Thank you for helping me ensure the security of my personal portfolio web project.}\}\}$
