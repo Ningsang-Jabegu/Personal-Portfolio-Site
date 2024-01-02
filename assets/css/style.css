@@ -1,65 +1,47 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2023 @Ningsang-Jabegu
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+/* ----------------------------------- *\
+   #style.css
+   copyright 2023 @Ningsang-Jabegu
+   #CUSTOM PROPERTY
+\* ----------------------------------- */
 
 :root {
-
-    /**
-     * colors
-     */
+    /** colors **/
 
     /* gradient */
-
     --bg-gradient-onyx: linear-gradient(to bottom right,
-            hsl(240, 1%, 25%) 3%,
-            hsl(0, 0%, 19%) 97%);
+            hsl(240deg 1% 25%) 3%,
+            hsl(0deg 0% 19%) 97%);
     --bg-gradient-jet: linear-gradient(to bottom right,
-            hsla(240, 1%, 18%, 0.251) 0%,
-            hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
+            hsla(240deg 1% 18% / 25.1%) 0%,
+            hsla(240deg 2% 11% / 0%) 100%), hsl(240 2% 13%);
     --bg-gradient-yellow-1: linear-gradient(to bottom right,
-            hsl(45, 100%, 71%) 0%,
-            hsla(36, 100%, 69%, 0) 50%);
+            hsl(45deg 100% 71%) 0%,
+            hsla(36deg 100% 69% / 0%) 50%);
     --bg-gradient-yellow-2: linear-gradient(135deg,
-            hsla(45, 100%, 71%, 0.251) 0%,
-            hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
+            hsla(45deg 100% 71% / 25.1%) 0%,
+            hsla(35deg 100% 68% 0) 59.86%), hsl(240 2% 13%);
     --border-gradient-onyx: linear-gradient(to bottom right,
-            hsl(0, 0%, 25%) 0%,
-            hsla(0, 0%, 25%, 0) 50%);
+            hsl(0deg 0% 25%) 0%,
+            hsla(0deg 0% 25% / 0%) 50%);
     --text-gradient-yellow: linear-gradient(to right,
-            hsl(45, 100%, 72%),
-            hsl(35, 100%, 68%));
+            hsl(45deg 100% 72%),
+            hsl(35deg 100% 68%));
 
     /* solid */
+    --jet: hsl(0deg 0% 22%);
+    --onyx: hsl(240deg 1% 17%);
+    --eerie-black-1: hsl(240deg 2% 13%);
+    --eerie-black-2: hsl(240deg 2% 12%);
+    --smoky-black: hsl(0deg 0% 7%);
+    --white-1: hsl(0deg 0% 100%);
+    --white-2: hsl(0deg 0% 98%);
+    --orange-yellow-crayola: hsl(45deg 100% 72%);
+    --vegas-gold: hsl(45deg 54% 58%);
+    --light-gray: hsl(0deg 0% 84%);
+    --light-gray-70: hsla(0deg 0% 84% / 70%);
+    --bittersweet-shimmer: hsl(0deg 43% 51%);
 
-    --jet: hsl(0, 0%, 22%);
-    --onyx: hsl(240, 1%, 17%);
-    --eerie-black-1: hsl(240, 2%, 13%);
-    --eerie-black-2: hsl(240, 2%, 12%);
-    --smoky-black: hsl(0, 0%, 7%);
-    --white-1: hsl(0, 0%, 100%);
-    --white-2: hsl(0, 0%, 98%);
-    --orange-yellow-crayola: hsl(45, 100%, 72%);
-    --vegas-gold: hsl(45, 54%, 58%);
-    --light-gray: hsl(0, 0%, 84%);
-    --light-gray-70: hsla(0, 0%, 84%, 0.7);
-    --bittersweet-shimmer: hsl(0, 43%, 51%);
-
-    /**
-     * typography
-     */
+    /** typography **/
 
     /* font-family */
     --ff-poppins: 'Poppins', sans-serif;
@@ -80,32 +62,21 @@
     --fw-500: 500;
     --fw-600: 600;
 
-    /**
-     * shadow
-     */
+    /** shadow **/
+    --shadow-1: -4px 8px 24px hsla(0 0% 0% / 0.25);
+    --shadow-2: 0 16px 30px hsla(0 0% 0% / 0.25);
+    --shadow-3: 0 16px 40px hsla(0 0% 0% / 0.25);
+    --shadow-4: 0 25px 50px hsla(0 0% 0% / 0.15);
+    --shadow-5: 0 24px 80px hsla(0 0% 0% / 0.25);
 
-    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-    --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-    --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
-
-    /**
-     * transition
-     */
-
+    /** transition **/
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease-in-out;
-
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #RESET
+\* ----------------------------------- */
 
 *,
 *::before,
@@ -165,13 +136,9 @@ body {
     background: var(--smoky-black);
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #REUSED STYLE
+\* ----------------------------------- */
 
 .sidebar,
 article {
@@ -320,13 +287,9 @@ section.active {
     z-index: -1;
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #MAIN
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #MAIN
+\* ----------------------------------- */
 
 main {
     margin: 15px 12px;
@@ -334,13 +297,9 @@ main {
     min-width: 259px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #SIDEBAR
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #SIDEBAR
+\* ----------------------------------- */
   @media (max-width:299px){
     .sidebar-info {
         /* display: flex; */
@@ -358,6 +317,7 @@ main {
         margin: auto;
     }
 }
+
 .sidebar {
     margin-bottom: 15px;
     max-height: 129px;
@@ -504,13 +464,9 @@ main {
     color: var(--light-gray);
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #NAVBAR
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #NAVBAR
+\* ----------------------------------- */
 
 .navbar {
     position: fixed;
@@ -539,12 +495,14 @@ main {
     padding: 20px 7px;
     transition: color var(--transition-1);
 }
+
 /*For the footer max-width 299*/
 @media (max-width: 299px) {
     .navbar-link {
         padding: 5px 7px;
     }
 }
+
 .navbar-link:hover,
 .navbar-link:focus {
     color: var(--light-gray-70);
@@ -554,13 +512,9 @@ main {
     color: var(--orange-yellow-crayola);
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #ABOUT
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #ABOUT
+\* ----------------------------------- */
 
 .about .article-title {
     margin-bottom: 15px;
@@ -577,11 +531,7 @@ main {
     margin-bottom: 15px;
 }
 
-
-
-/**
-   * #service 
-   */
+/** #service **/
 
 .service {
     margin-bottom: 35px;
@@ -643,10 +593,7 @@ main {
     line-height: 1.6;
 }
 
-
-/**
-   * #testimonials 
-   */
+/** #testimonials **/
 
 .testimonials {
     margin-bottom: 30px;
@@ -719,9 +666,7 @@ main {
     margin-top: 1em;
     display: inline;
 }
-/**
-   * #testimonials-modal
-   */
+/** #testimonials-modal **/
 
 .modal-container {
     position: fixed;
@@ -847,9 +792,7 @@ main {
 }
 
 
-/**
-   * #clients 
-   */
+/** #clients **/
 
 .clients {
     margin-bottom: 15px;
@@ -898,22 +841,16 @@ main {
     filter: grayscale(0);
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #RESUME
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #RESUME
+\* ----------------------------------- */
 
 .article-title {
     margin-bottom: 30px;
 }
 
 
-/**
-   * education and experience 
-   */
+/** education and experience **/
 
 .timeline {
     margin-bottom: 30px;
@@ -944,7 +881,9 @@ main {
     line-height: 1.3;
     margin-bottom: 7px;
 }
-.timeline-item-title  .edu-link, .timeline-item-title .exp-link{
+
+.timeline-item-title  .edu-link,
+.timeline-item-title .exp-link{
     font-size: inherit;
     line-height: inherit;
     margin-bottom: inherit;
@@ -1000,9 +939,7 @@ main {
     line-height: 1.6;
 }
 
-/**
-   * Education links
-   */
+/** Education links **/
 
 .img-center {
     left: 0;
@@ -1017,19 +954,20 @@ main {
     gap: 2em;
     height: max-content;
 }
+
 .education-center {
     align-items: start;
     justify-content: center;
 }
+
 .education-center p .dot{
     align-items: center;
     justify-content: center;
     margin: auto .7em;
 }
 
-/**
-   * Experience links
-   */
+/** Experience links **/
+
 .Experience ol li {
     color: var(--light-gray);
     list-style: decimal;
@@ -1038,16 +976,13 @@ main {
     margin-left: .8em;
 }
 
-/* .uni-lists figure {
-    background-color: var(--light-gray-70);
-} */
-
 .education-figure figure {
     border: 1px solid var(--light-gray-70);
     height: max-content;
     border-radius: 1em;
     padding: .8em;
 }
+
 .education-figure figure .a{
     color: inherit;
     margin-top: .4em;
@@ -1087,13 +1022,12 @@ figure .a ion-icon {
     gap: .8em;
     transition: 200ms ease-in-out;
 }
+
 .education-main button:hover {
     background-color: #6a590b;
 }
 
-/**
-   * skills rgb(106, 82, 11)
-   */
+/** skills rgb(106, 82, 11) **/
 
 .skills-title {
     margin-bottom: 20px;
@@ -1102,7 +1036,6 @@ figure .a ion-icon {
 .skills-list {
     padding: 20px;
 }
-
 
 .skills-item:not(:last-child) {
     margin-bottom: 15px;
@@ -1134,13 +1067,9 @@ figure .a ion-icon {
     border-radius: inherit;
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #PORTFOLIO
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #PORTFOLIO
+\* ----------------------------------- */
 
 .filter-list {
     display: none;
@@ -1257,12 +1186,11 @@ figure .a ion-icon {
 }
 
 .project-item>a:hover .project-img::before {
-    background: hsla(0, 0%, 0%, 0.5);
+    background: hsla(0deg 0% 0% / 50%);
 }
 
 .project-item-icon-box {
     --scale: 0.8;
-
     background: var(--jet);
     color: var(--orange-yellow-crayola);
     position: absolute;
@@ -1316,13 +1244,9 @@ figure .a ion-icon {
     font-weight: var(--fw-300);
 }
 
-
-
-
-
-/*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
+/* ----------------------------------- *\
+   #BLOG
+\* ----------------------------------- */
 
 .blog-posts {
     margin-bottom: 10px;
@@ -1382,7 +1306,7 @@ figure .a ion-icon {
     margin-bottom: 10px;
 }
 
-.blog-meta :is(.blog-category, time, .author) {
+.blog-meta :is(.blog-category,time, .author) {
     color: var(--light-gray-70);
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
@@ -1438,7 +1362,7 @@ article.indivisual_blog .blog-item-title{
 
 .blog-content-indivisual .blog-text-indivisual,
 .blog-text {
-        color: var(--light-gray);
+    color: var(--light-gray);
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
     line-height: 1.6;
@@ -1578,23 +1502,15 @@ textarea.form-input::-webkit-resizer {
     background: var(--bg-gradient-jet);
 }
 
+/* ----------------------------------- *\
+   #RESPONSIVE
+\* ----------------------------------- */
 
-
-
-
-/*-----------------------------------*\
-    #RESPONSIVE
-  \*-----------------------------------*/
-
-/**
-   * responsive larger than 450px screen
-   */
+/** responsive larger than 450px screen **/
 
 @media (min-width: 450px) {
 
-    /**
-     * client
-     */
+    /** client **/
 
     .clients-item {
         min-width: calc(33.33% - 10px);
@@ -1602,9 +1518,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-    /**
-     * #PORTFOLIO, BLOG 
-     */
+    /** #PORTFOLIO, BLOG **/
 
     .project-img {
         height: 10em;
@@ -1614,32 +1528,21 @@ textarea.form-input::-webkit-resizer {
     .blog-banner-box {
         aspect-ratio: 16/9;
     }
-
-    /* .blog-banner-box.indivisual {
-        width: 100%;
-        aspect-ratio: 4/3;
-    } */
 }
 
 
 
 
 
-/**
-   * responsive larger than 580px screen
-   */
+/** responsive larger than 580px screen **/
 
 @media (min-width: 580px) {
 
-    /**
-     * CUSTOM PROPERTY
-     */
+    /** CUSTOM PROPERTY **/
 
     :root {
 
-        /**
-       * typography
-       */
+        /** typography **/
 
         --fs-1: 32px;
         --fs-2: 24px;
@@ -1651,11 +1554,7 @@ textarea.form-input::-webkit-resizer {
 
     }
 
-
-
-    /**
-     * #REUSED STYLE
-     */
+    /** #REUSED STYLE **/
 
     .sidebar,
     article {
@@ -1681,22 +1580,14 @@ textarea.form-input::-webkit-resizer {
         font-size: 18px;
     }
 
-
-
-    /**
-     * #MAIN
-     */
+    /** #MAIN **/
 
      main {
         margin-top: 60px;
         margin-bottom: 100px;
     }
 
-
-
-    /**
-     * #SIDEBAR
-     */
+    /** #SIDEBAR **/
 
     .sidebar {
         max-height: 209px;
@@ -1756,9 +1647,7 @@ textarea.form-input::-webkit-resizer {
     }
 
 
-    /**
-     * #NAVBAR
-     */
+    /** #NAVBAR **/
 
     .navbar {
         border-radius: 20px 20px 0 0;
@@ -1774,9 +1663,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-    /**
-     * #ABOUT
-     */
+    /** #ABOUT **/
 
     .about .article-title {
         margin-bottom: 20px;
@@ -1787,7 +1674,6 @@ textarea.form-input::-webkit-resizer {
     }
 
     /* service */
-
     .service-item {
         display: flex;
         justify-content: flex-start;
@@ -1806,7 +1692,6 @@ textarea.form-input::-webkit-resizer {
     }
 
     /* testimonials */
-
     .testimonials-title {
         margin-bottom: 25px;
     }
@@ -1844,7 +1729,6 @@ textarea.form-input::-webkit-resizer {
     }
 
     /* testimonials modal */
-
     .modal-container {
         padding: 20px;
     }
@@ -1880,7 +1764,6 @@ textarea.form-input::-webkit-resizer {
     }
 
     /* clients */
-
     .clients-list {
         gap: 50px;
         margin: 0 -30px;
@@ -1894,9 +1777,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-    /**
-     * #RESUME
-     */
+    /** #RESUME **/
 
     .timeline-list {
         margin-left: 65px;
@@ -1920,9 +1801,7 @@ textarea.form-input::-webkit-resizer {
         width: 47%;
     }
 
-    /**
-     * #PORTFOLIO, BLOG
-     */
+    /** #PORTFOLIO, BLOG **/
 
     .project-img,
     .blog-banner-box {
@@ -1939,9 +1818,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-    /**
-     * #CONTACT
-     */
+    /** #CONTACT **/
 
     .mapbox {
         height: 380px;
@@ -1969,22 +1846,13 @@ textarea.form-input::-webkit-resizer {
     .form-btn ion-icon {
         font-size: 18px;
     }
-
 }
 
-
-
-
-
-/**
-   * responsive larger than 768px screen
-   */
+/** responsive larger than 768px screen **/
 
 @media (min-width: 768px) {
 
-    /**
-     * REUSED STYLE
-     */
+    /** REUSED STYLE **/
 
     .sidebar,
     article {
@@ -1995,35 +1863,22 @@ textarea.form-input::-webkit-resizer {
         width: 100px;
     }
 
-
-
-    /**
-     * SIDEBAR
-     */
+    /** SIDEBAR **/
 
     .contacts-list {
         grid-template-columns: 1fr 1fr;
         gap: 30px 15px;
     }
 
-
-
-    /**
-     * NAVBAR
-     */
+    /** NAVBAR **/
 
     .navbar-link {
         --fs-8: 15px;
     }
 
-
-
-    /**
-     * ABOUT
-     */
+    /** ABOUT **/
 
     /* testimonials modal */
-
     .testimonials-modal {
         gap: 35px;
         max-width: 680px;
@@ -2033,11 +1888,7 @@ textarea.form-input::-webkit-resizer {
         width: 80px;
     }
 
-
-
-    /**
-     * PORTFOLIO
-     */
+    /** PORTFOLIO **/
 
     .article-title {
         padding-bottom: 20px;
@@ -2071,7 +1922,6 @@ textarea.form-input::-webkit-resizer {
     }
 
     /* portfolio and blog grid */
-
     .project-list,
     .blog-posts-list {
         grid-template-columns: 1fr 1fr;
@@ -2079,9 +1929,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-    /**
-     * CONTACT
-     */
+    /** CONTACT **/
 
     .input-wrapper {
         grid-template-columns: 1fr 1fr;
@@ -2094,25 +1942,15 @@ textarea.form-input::-webkit-resizer {
 
 }
 
-
-
-
-
-/**
-   * responsive larger than 1024px screen
-   */
+/** responsive larger than 1024px screen **/
 
 @media (min-width: 1024px) {
 
-    /**
-     * CUSTOM PROPERTY
-     */
+    /** CUSTOM PROPERTY **/
 
     :root {
 
-        /**
-      * shadow
-      */
+        /** shadow **/
 
         --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
         --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
@@ -2120,11 +1958,7 @@ textarea.form-input::-webkit-resizer {
 
     }
 
-
-
-    /**
-     * REUSED STYLE
-     */
+    /** REUSED STYLE **/
 
     .sidebar,
     article {
@@ -2132,11 +1966,7 @@ textarea.form-input::-webkit-resizer {
         box-shadow: var(--shadow-5);
     }
 
-
-
-    /**
-     * MAIN 
-     */
+    /** MAIN **/
 
     main {
         margin-bottom: 60px;
@@ -2148,11 +1978,7 @@ textarea.form-input::-webkit-resizer {
         margin: auto;
     }
 
-
-
-    /**
-     * NAVBAR
-     */
+    /** NAVBAR **/
 
     .navbar {
         position: absolute;
@@ -2175,36 +2001,25 @@ textarea.form-input::-webkit-resizer {
         font-weight: var(--fw-500);
     }
 
-
-
-    /**
-     * ABOUT
-     */
+    /** ABOUT **/
 
     /* service */
-
     .service-list {
         grid-template-columns: 1fr 1fr;
         gap: 20px 25px;
     }
 
     /* testimonials */
-
     .testimonials-item {
         min-width: calc(50% - 15px);
     }
 
     /* clients */
-
     .clients-item {
         min-width: calc(25% - 38px);
     }
 
-
-
-    /**
-     * PORTFOLIO
-     */
+    /** PORTFOLIO **/
 
     .project-list {
         grid-template-columns: repeat(3, 1fr);
@@ -2212,9 +2027,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-    /**
-     * BLOG
-     */
+    /** BLOG **/
 
     .indivisual.blog-banner-box {
         height: 470px;
@@ -2226,22 +2039,13 @@ textarea.form-input::-webkit-resizer {
         max-width: 100%;
         aspect-ratio: 16/9;
     }
-
 }
 
-
-
-
-
-/**
-   * responsive larger than 1250px screen
-   */
+/** responsive larger than 1250px screen **/
 
 @media (min-width: 1250px) {
 
-    /**
-     * RESET
-     */
+    /** RESET **/
 
     body::-webkit-scrollbar {
         width: 20px;
@@ -2253,25 +2057,21 @@ textarea.form-input::-webkit-resizer {
 
     body::-webkit-scrollbar-thumb {
         border: 5px solid var(--smoky-black);
-        background: hsla(0, 0%, 100%, 0.1);
+        background: hsla(0deg 0% 100% / 10%);
         border-radius: 20px;
-        box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-            inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+        box-shadow: inset 1px 1px 0 hsla(0deg 0% 100% / 11%),
+            inset -1px -1px 0 hsla(0deg 0% 100% / 11%);
     }
 
     body::-webkit-scrollbar-thumb:hover {
-        background: hsla(0, 0%, 100%, 0.15);
+        background: hsla(0 0% 100% / 15%);
     }
 
     body::-webkit-scrollbar-button {
         height: 60px;
     }
 
-
-
-    /**
-     * REUSED STYLE
-     */
+    /** REUSED STYLE **/
 
     .sidebar,
     article {
@@ -2282,11 +2082,7 @@ textarea.form-input::-webkit-resizer {
         min-height: 100%;
     }
 
-
-
-    /**
-     * MAIN
-     */
+    /** MAIN **/
 
      main {
         max-width: 1200px;
@@ -2303,11 +2099,7 @@ textarea.form-input::-webkit-resizer {
         margin: 0;
     }
 
-
-
-    /**
-     * SIDEBAR
-     */
+    /** SIDEBAR **/
 
     .sidebar {
         position: sticky;
@@ -2368,11 +2160,7 @@ textarea.form-input::-webkit-resizer {
         justify-content: center;
     }
 
-
-
-    /**
-       * RESUME
-       */
+    /** RESUME **/
 
     .timeline-text {
         max-width: 700px;
