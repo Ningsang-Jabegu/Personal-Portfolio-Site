@@ -1,3 +1,5 @@
+This repository is no more in update. Please visit the link https://github.com/Ningsang-Jabegu/Personal-Portfolio-React-File for the updated code for this site.
+
 <div style="background-color: #f1f1f1; border-radius: 10px; padding: 20px; width: 300px;">
 <img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/about-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
 <img src="https://github.com/Ningsang-Jabegu/Personal-Portfolio-Site/blob/main/resume-screenshot.png" alt="Banner picture" style="border-radius: 50%; display: block; margin: 0 auto; height: auto; width: 100%; z-index:-1; margin-bottom:-5em;">
